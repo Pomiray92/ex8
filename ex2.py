@@ -2,9 +2,6 @@
 
     #Task1
 
-from unittest import skip
-
-
 text3 = "Berlin is a world city of culture, politics, media and science."
 print(len(text3))
 
@@ -20,10 +17,10 @@ print(text2[:3].upper())
 
     #Task4
 
-text4 = """Berlin straddles the banks of the Spree, 
-           which flows into the Havel (a tributary of the Elbe) 
-           in the western borough of Spandau."""
-print(text4[-3:])
+text4 = """Berlin is surrounded by the State of 
+            Brandenburg and contiguous with 
+            Potsdam, Brandenburg's capital ."""
+print(text4.count("B"))
 
     #Task5
 
@@ -40,7 +37,7 @@ print(text6.strip("-"))
 
     #Task7
 
-Firstname = "Mary"
-Lastname = "Mat"
-print
+Firstname = "Firstname: Mary"
+Lastname = "Lastname: Mat"
+print(Firstname + "\n" + Lastname)
 
